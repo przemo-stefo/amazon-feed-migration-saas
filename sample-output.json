@@ -1,0 +1,43 @@
+{
+  "header": {
+    "sellerId": "YOUR_SELLER_ID",
+    "version": "2021-06-30",
+    "issueLocale": "en_US"
+  },
+  "messages": [
+    {
+      "messageId": "PROD-001",
+      "sku": "PROD-001",
+      "operationType": "UPDATE",
+      "productType": "GENERIC",
+      "attributes": {
+        "fulfillment_availability": [
+          {
+            "fulfillment_channel_code": "DEFAULT",
+            "quantity": 100
+          }
+        ],
+        "purchasable_offer": [
+          {
+            "currency": "USD",
+            "our_price": [
+              {
+                "schedule": [
+                  {
+                    "value_with_tax": 29.99
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "item_name": [
+          {
+            "value": "Example Product Title",
+            "language_tag": "en_US"
+          }
+        ]
+      }
+    }
+  ]
+}
